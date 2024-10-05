@@ -5,7 +5,7 @@ from langchain_openai import OpenAI, ChatOpenAI
 from langchain_community.cache import SQLiteCache
 from langchain.globals import set_llm_cache
 from langchain.prompts import PromptTemplate
-from langchain_core.output_parsers import StrOutputParser
+
 from langchain_community.utilities.sql_database import SQLDatabase
 from langchain_community.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
 from langchain import hub

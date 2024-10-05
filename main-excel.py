@@ -80,7 +80,7 @@ def route(classification):
         return eat_chain
 
 
-question = 'What city you have restaurant data?'
+question = 'Onde comer em Anchieta?'
 
 classification = classification_chain.invoke({'question': question})
 print(classification)
